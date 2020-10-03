@@ -1,0 +1,66 @@
+body {
+  background-color: #212121;
+  color: white;
+}
+
+body header {
+  padding-top: 40px;
+}
+
+body main {
+  padding: 40px 0;
+}
+
+body .home-title {
+  font-size: 4em;
+}
+
+body .home-title span {
+  color: #299afd;
+  font-size: 1.25em;
+}
+
+body .home-layout {
+  padding-top: 40px;
+}
+
+body .home-layout .block {
+  padding: 40px 0;
+}
+
+body .home-layout .layout-block1 .block1-content,
+body .home-layout .layout-block1 .block3-content,
+body .home-layout .layout-block3 .block1-content,
+body .home-layout .layout-block3 .block3-content {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+body .home-layout .layout-block1 .block1-content .content-card,
+body .home-layout .layout-block1 .block3-content .content-card,
+body .home-layout .layout-block3 .block1-content .content-card,
+body .home-layout .layout-block3 .block3-content .content-card {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 25%;
+}
+
+body .home-layout .layout-block1 .block1-content .content-card img,
+body .home-layout .layout-block1 .block3-content .content-card img,
+body .home-layout .layout-block3 .block1-content .content-card img,
+body .home-layout .layout-block3 .block3-content .content-card img {
+  width: 100%;
+}
+
+body .home-layout .layout-block2,
+body .home-layout .layout-block3 {
+  border-top: 1px solid #299afd;
+}
+
+body .home-layout .layout-block2 .block2-content .title,
+body .home-layout .layout-block3 .block2-content .title {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */
